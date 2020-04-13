@@ -16,7 +16,7 @@ import com.serey.service.RegistrationService;
 public class RegistrationController {
 	@Autowired
 	private RegistrationService registrationService;
-	
+	///777777777777777777777777777
 	@PostMapping("/serey/users/create")
 	public UserRegistration createUser(@RequestBody UserRegistration account) {
 		registrationService.createUser(account);
